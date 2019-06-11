@@ -1,0 +1,6 @@
+﻿@model MVCAppRegister.Areas.Admin.Models.SmallButtonModel
+
+<a href="@Url.Action(Model.Action)@Model.ActionParameters" type="button" class="btn @Model.ButtonType btn-sm">
+    <span class="glyphicon glyphicon-@Model.Glyf"></span>
+    <span class="sr-only">@Model.Text</span>
+</a>
